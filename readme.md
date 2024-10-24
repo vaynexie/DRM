@@ -2,4 +2,4 @@
 
 Code and data will be available here soon.
 
-Correspond to: Vayne Xie (wxieai@cse.ust.hk）
+Correspondence to: Vayne Xie (wxieai@cse.ust.hk）
