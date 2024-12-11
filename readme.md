@@ -5,7 +5,7 @@
 
 ### Plan for release
 
-- [ ] Release the concept decriptions we used 
+- [x] Release the concept decriptions we used 
 - [ ] Release the model checkpoints and inference codes (expect: 15 Dec.)
 - [ ] Release the training codes (expect: before 31 Dec.)
 
