@@ -2,4 +2,9 @@
 
 Code and data will be available here soon.
 
+- [ ] Complete the project report
+- [ ] Call the supplier
+- [ ] Schedule a team meeting
+- [ ] Prepare presentation slides
+
 Correspondence to: Vayne Xie (wxieai@cse.ust.hk）
