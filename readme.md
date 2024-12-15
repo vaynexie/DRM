@@ -5,9 +5,9 @@
 
 ### Plan for release
 
-- [x] Release the concept decriptions we used 
-- [ ] Release the model checkpoints and inference codes (update: 15 Dec. iWildCam-related checkpoints and inference codes have been released, will update for ImageNet and FMoW soon)
-- [ ] Release the training codes (expect: before 31 Dec.)
+- [x] Release the concept decriptions we used [in /concept_description] 
+- [ ] Release the model checkpoints and inference codes (update: 15 Dec. iWildCam-related checkpoints and inference codes have been released, will update for ImageNet and FMoW soon).
+- [ ] Release the training codes (expect: before 31 Dec.).
 
 ### Requirement
 
