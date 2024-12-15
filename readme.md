@@ -28,11 +28,11 @@ pip install requirements.txt
 
 ### Inference
 
-|          | Dataset                                                      | Checkpoint                                                   | Inference                          |
-| :------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
-| iWildCam | [Link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wxieai_connect_ust_hk/EUZoLIp5ZHtPhJ67X3F0hw0BdN-pZ1OWmT3FlBaOfwDUbA?e=wfKf4H)<br />Please download and unzip the dataset.<br /><br />The data-location in src/eval.sh may need to change accordingly. | **CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID F1: 0.5353, OOD F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID F1: 0.6222, OOD F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID F1: , OOD F1: ] | cd DRM<br /><br />bash src/eval.sh |
-| ImageNet | To add                                                       | To add                                                       | To add                             |
-| FMoW     | To add                                                       | To add                                                       | To add                             |
+|          | Dataset                                                      | Checkpoint                                                   | Inference        |
+| :------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
+| iWildCam | [Link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wxieai_connect_ust_hk/EUZoLIp5ZHtPhJ67X3F0hw0BdN-pZ1OWmT3FlBaOfwDUbA?e=wfKf4H)<br />Please download and unzip the dataset.<br /><br />The data-location in src/eval.sh may need to change accordingly. | **CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID F1: 0.5353, OOD F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID F1: 0.6222, OOD F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID F1: , OOD F1: ] | bash src/eval.sh |
+| ImageNet | To add                                                       | To add                                                       | To add           |
+| FMoW     | To add                                                       | To add                                                       | To add           |
 
 ### Cite us
 
