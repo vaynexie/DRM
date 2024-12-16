@@ -22,7 +22,7 @@ cd DRM
 ```Shell
 conda create -n drm python=3.10 -y
 conda activate drm
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ````
 
