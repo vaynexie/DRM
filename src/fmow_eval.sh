@@ -14,8 +14,8 @@ python src/main.py --train-dataset=FMOWIDVal  --batch-size=256 --model=ViT-L/14 
 --cd_path='prompts/fmow_cd.json' \
 --beta=0.5 \
 --checkpoint_path='ckpts/fmow_vit_l14.pt'
-#
-# ## FMow ViT-L/14@336px
+
+## FMow ViT-L/14@336px
 python src/main.py --train-dataset=FMOWIDVal  --batch-size=128 --model=ViT-L/14@336px \
 --eval-datasets=FMOWIDVal,FMOWID,FMOWOOD  --template=fmow_template  \
 --data-location='fmow_v1.1' --exp_name=fmow/drm_eval_vit_l14_336 \
