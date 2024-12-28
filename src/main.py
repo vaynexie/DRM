@@ -1,7 +1,6 @@
 
 from ast import arg
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
 import os.path
 import sys
 current_directory = os.getcwd()

@@ -61,7 +61,7 @@ class Camelyon17Dataset(WILDSDataset):
 
     def __init__(self, version=None, root_dir='data', download=False, split_scheme='official'):
         self._version = version
-        self._data_dir = '/project/imgtextmod/camelyon17/'#self.initialize_data_dir(root_dir, download)
+        self._data_dir = root_dir #self.initialize_data_dir(root_dir, download)
         self._original_resolution = (96,96)
 
         # Read in metadata

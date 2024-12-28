@@ -1,4 +1,4 @@
-
+export CUDA_VISIBLE_DEVICES=0
 ## iWildCam ViT-B/16
 python src/main.py --train-dataset=IWildCamIDVal  --batch-size=512 --model=ViT-B/16 \
 --eval-datasets=IWildCamIDVal,IWildCamID,IWildCamOOD --template=iwildcam_template  \

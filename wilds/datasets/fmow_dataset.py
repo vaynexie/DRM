@@ -66,9 +66,7 @@ class FMoWDataset(WILDSDataset):
 
     def __init__(self, version=None, root_dir='data', download=False, split_scheme='official', seed=111, use_ood_val=True):
         self._version = version
-        self._data_dir = '/project/imgtextmod/fmow_dataset/'
-        #self.initialize_data_dir(root_dir, download)
-
+        self._data_dir = root_dir
         self._split_dict = {'train': 0, 'id_val': 1, 'id_test': 2, 'val': 3, 'test': 4}
         self._split_names = {'train': 'Train', 'id_val': 'ID Val', 'id_test': 'ID Test', 'val': 'OOD Val', 'test': 'OOD Test'}
         self._source_domain_splits = [0, 1, 2]
@@ -96,7 +94,7 @@ class FMoWDataset(WILDSDataset):
 
         self.num_chunks = 101
         self.chunk_size = len(self.metadata) // (self.num_chunks - 1)
-        self.metadata['timestamp'] = pd.to_datetime(self.metadata['timestamp'], format='ISO8601')        
+        self.metadata['timestamp'] = pd.to_datetime(self.metadata['timestamp'], format='ISO8601')
         if self._split_scheme.startswith('time_after'):
             year = int(self._split_scheme.split('_')[2])
             year_dt = datetime.datetime(year, 1, 1, tzinfo=pytz.UTC)

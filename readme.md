@@ -6,38 +6,33 @@
 ### Plan for release
 
 - [x] Release the concept decriptions we used [in /concept_description] 
-- [ ] Release the model checkpoints and inference codes (update: 15 Dec. iWildCam-related checkpoints and inference codes have been released, will update for ImageNet and FMoW soon).
+- [ ] Release the model checkpoints and inference codes (update: iWildCam and FMoW-related checkpoints and inference codes have been released, will update for ImageNet soon).
 - [ ] Release the training codes (expect: before 31 Dec.).
 
 ### Requirement
 
 ````
 1. Clone this repository and navigate to DRM folder
-```bash
 git clone https://github.com/vaynexie/DRM.git
 cd DRM
-```
 
 2. Install Package
-```Shell
 conda create -n drm python=3.10 -y
 conda activate drm
 pip install -r requirements.txt
-```
 ````
 
 ### Inference
 
-|          | Dataset                                                      | Checkpoint                                                   | Inference                                                    |
-| :------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| iWildCam | [**Link**](https://worksheets.codalab.org/rest/bundles/0x6313da2b204647e79a14b468131fcd64/contents/blob/)<br />Please download and unzip the dataset.<br /><br />The data-location in src/eval.sh may need to change accordingly. | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/ElA73hZ8UAlMgzmjIy99ycgBu6CZCNG-mSzdcqJHBrklIw?e=f8wXDf)<br /><br />**CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID F1: 0.5353, OOD F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID F1: 0.6222, OOD F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID F1: 0.6273 , OOD F1: 0.5139] | First download the checkpoints and put them under the ckpts folder <br /><br />bash src/eval.sh |
-| ImageNet | To add                                                       | To add                                                       | To add                                                       |
-| FMoW     | To add                                                       | To add                                                       | To add                                                       |
+|          | Dataset <br />[please download and unzip the dataset]        | Checkpoint<br />[download the checkpoints and put them under the *ckpts* folder ] | Inference                 |
+| :------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
+| iWildCam | [**Link**](https://worksheets.codalab.org/rest/bundles/0x6313da2b204647e79a14b468131fcd64/contents/blob/)<br />The data-location in src/eval_iwildcam.sh may need to change accordingly. | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/ElA73hZ8UAlMgzmjIy99ycgBu6CZCNG-mSzdcqJHBrklIw?e=f8wXDf)<br /><br />**CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID tesing F1: 0.5353, OOD tesing F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID tesing F1: 0.6222, OOD tesing F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID tesing F1: 0.6273 , OOD tesing F1: 0.5139] | bash src/eval_iwildcam.sh |
+| FMoW     | [**Link**](https://worksheets.codalab.org/rest/bundles/0xaec91eb7c9d548ebb15e1b5e60f966ab/contents/blob/)<br />The data-location in src/eval_fmow.sh may need to change accordingly. | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/EiB1b_999MdDkg7eDyvozeUB24wpPAnxjt7_2AUoNSn-iA?e=eEGRYB)<br /><br />**CLIP ViT-B/16**<br />(ckpts/fmow_vit_b16.pt) <br />[ID tesing acc: 0.6857, OOD tesing worst-region acc: 0.4566]<br /><br />**CLIP ViT-L/14**<br />(ckpts/fmow_vit_l14.pt) <br />[ID tesing acc: 0.7093, OOD tesing worst-region acc: 0.5137]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/fmow_vit_l14_336.pt) <br />[ID tesing acc: 0.7389 , OOD tesing worst-region acc: 0.5253] | bash src/eval_fmow.sh     |
+| ImageNet | To add                                                       | To add                                                       | To add                    |
 
 ### Cite us
 
 ````
-```
 @inproceedings{
 li2024dual,
 title={Dual Risk Minimization: Towards Next-Level Robustness in Fine-tuning Zero-Shot Models},
@@ -46,7 +41,6 @@ booktitle={The Thirty-eighth Annual Conference on Neural Information Processing 
 year={2024},
 url={https://openreview.net/forum?id=p50Dyqk0GX}
 }
-```
 ````
 
 ### Acknowledgement

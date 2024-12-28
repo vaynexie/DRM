@@ -1,0 +1,583 @@
+{
+  
+"airport": [
+"Long, straight paved surfaces with distinct markings signify runways, facilitating aircraft landing and takeoff.",
+"Terminal complexes are recognizable by their expansive flat-roofed buildings clustered near runways, serving as passenger hubs.",
+"Large, organized grid patterns denote parking areas, typically filled with vehicles and located near terminal access points.",
+"Narrower connecting paths branching from runways reveal taxiways, essential for aircraft navigation on the ground.",
+"Rectangular structures with possible curved roofs, often isolated from central activity areas, identify aircraft hangars.",
+"Tall, slender buildings with panoramic upper sections characterize control towers, overseeing airport operations."
+],
+  
+"airport_hangar":[
+"Large, rectangular buildings typically with metal roofs, designed to accommodate aircraft storage and maintenance.",
+"Roofs may be curved or arch-shaped, allowing for a large unobstructed internal space suitable for aircraft.",
+"Situated away from the main terminal areas, these structures often cluster in less congested parts of the airport.",
+"Visible large doors, often sliding or bi-folding, facilitate the movement of aircraft in and out of the hangar.",
+"The area around hangars is generally sparse, with minimal other structures to allow easy access and movement.",
+"Hangars are occasionally accompanied by smaller utility buildings or fuel storage tanks, visible as smaller, adjacent structures."
+],
+
+"airport_terminal":[
+"Visible as large, rectangular or irregularly shaped structures with extensive flat or slightly sloped roofing systems, reflecting sunlight distinctly.",
+"Surrounded by a complex of paved areas and access roads, forming a visible network of lines and polygons when viewed from above.",
+"Features multiple adjoining segments, each with varying roof designs and heights, creating a patchwork appearance in aerial views.",
+"Often accompanied by adjacent parking lots that are densely packed with cars, forming tightly organized grids in satellite images.",
+"Positioned strategically near runways, with clear, linear connections to them visible as paved taxiways cutting across the landscape.",
+"Typically larger than nearby buildings, making them prominent landmarks within the airport’s overall layout as seen from satellite imagery."
+],
+
+"amusement_park":[
+"Characterized by a diverse array of colorful structures and attractions, including roller coasters and ferris wheels, visible as intricate geometric patterns from above.",
+"Large, open spaces interspersed with pathways that appear as winding lines connecting various sections of the park.",
+"Typically surrounded by parking areas that show regular arrays of vehicles and buses, clearly defined and extensive.",
+"Water features such as pools, rivers, or splash pads are visible as distinct blue or reflective areas amidst the colorful park layout.",
+"Green spaces are noticeable, punctuating the colorful attractions with areas of trees and landscaped gardens, providing contrast in aerial images.",
+"The overall layout often reveals a planned, thematic organization, with clusters of attractions grouped by theme, visible as distinct sections from aerial views."
+],
+
+
+"aquaculture":[
+"Visible as clusters of uniformly shaped ponds or raceways, often rectangular or circular, distinguishable by their water-filled appearance.",
+"Arranged in neat rows or grids, these water bodies create a patterned landscape distinctly different from surrounding natural environments.",
+"Infrastructure such as small roads or paths connecting the ponds can be observed, forming a network that facilitates management and harvesting.",
+"Shades of water in the ponds may vary, indicating different types of aquaculture or stages of growth, visible from aerial views.",
+"Adjacent land may show signs of related activity, including storage facilities and processing buildings, typically small and regularly spaced.",
+"Often located near natural water sources, these facilities may be connected by channels or pipes, subtly marked in the landscape."
+],
+
+
+"archaeological_site":[
+"Distinct patches of disturbed soil or vegetation indicate areas of ongoing excavation, visible as irregular shapes.",
+"Geometrically arranged excavation pits appear as precise, man-made shapes that disrupt the natural landscape.",
+"Temporary shelters or covers over active dig sites manifest as small, uniformly colored polygons.",
+"Linear or curved paths, created by frequent foot traffic, show as thinner, lighter trails across the site.",
+"Ancient structural remnants can be subtly indicated by faint, irregular lines or formations in the soil.",
+"Contrasting soil colors may reveal different strata or buried materials, evident as patches with varying hues."  
+],
+
+"barn":[
+"Large, rectangular structures with distinct pitched roofs, visible in aerial imagery as prominent geometric shapes.",
+"Typically exhibit earthy tones such as red, gray, or unpainted wood, making them distinguishable from surrounding greenery.",
+"Often accompanied by cylindrical silos or rectangular storage units, creating a functional cluster of farm buildings.",
+"Surrounded by access roads that appear as narrow, linear traces cutting through the landscape to connect with broader road networks.",
+"Positioned near natural or artificial water bodies, which can appear as reflective surfaces in close proximity to the structures.",
+"Located within clearings in agricultural fields, identifiable by the contrasting cleared land around the structures."
+],
+
+"border_checkpoint": [
+"Displays a discernible line or clearing that marks the division between two countries, evident in the contrasting landscape or land use on either side.",
+"Features multiple inspection lanes that align perpendicularly to the border, creating a clear, structured pattern visible from above.",
+"Outlined by security barriers or fencing that traces the national boundary, appearing as a continuous, linear demarcation.",
+"Accompanied by large, paved areas on both sides of the border, providing distinct, symmetrical staging grounds for vehicle and pedestrian processing.",
+"Includes several small, uniformly shaped buildings positioned strategically along the border, serving as administrative and control points.",
+"Connected by well-defined roads from both countries, converging at the checkpoint, highlighting the intersection of two different road systems."
+],
+
+"burial_site": [
+"Characterized by regular arrays of small, rectangular plots that create a grid-like pattern from an aerial view.",
+"Often surrounded by a perimeter fence or wall, visible as a continuous line enclosing the site.",
+"Features pathways that intersect at right angles, forming a distinct, orderly network throughout the area.",
+"Includes larger, centralized structures or monuments, which stand out due to their unique shapes and sizes compared to surrounding plots.",
+"Typically set in landscaped areas with varying vegetation patterns, visible as patches of greenery interspersed among the plots.",
+"Located in quieter, less densely built-up areas, often distinguishable by its open space and lower surrounding infrastructure density."
+],
+
+"car_dealership":[
+"Features large, open lots typically surfaced with asphalt, visible as expansive, uniform grey areas.",
+"Characterized by rows of closely parked cars, creating highly ordered, colorful patterns from above.",
+"Includes one or more prominent buildings, often with large glass facades, distinguishable by their rectangular shapes and reflective surfaces.",
+"Surrounded by distinct parking areas for customers, visible as smaller, organized grids separate from the main vehicle display area.",
+"Connected by access roads that clearly delineate entry and exit points, often highlighted by their direct connection to main thoroughfares.",
+"Situated in commercial zones, usually adjacent to other retail entities, forming clusters of development with similar visual characteristics."
+],
+
+
+"construction_site":[
+"Showcases irregular, exposed earth patches alternating with areas of recent groundwork, visible as variations in soil color and texture.",
+"Features cranes and other construction machinery, which stand out as sharply defined, geometric shapes against the less structured ground.",
+"Displays scattered piles of construction materials, manifesting as small, dense clusters with distinct shadows.",
+"Outlined by temporary fencing, which forms thin, straight or curved lines clearly demarcating the active construction areas.",
+"Characterized by partial building structures, visible as frameworks or incomplete shapes that evolve over time.",
+"Marked by dirt tracks from heavy vehicle movement, evident as disrupted or darker traces on the construction landscape."
+],
+
+
+"crop_field":[
+"Characterized by large, rectangular or irregularly shaped patches, typically in varying shades of green, brown, or golden, depending on the crop type and season.",
+"Features straight, parallel lines within the fields, indicative of planting patterns or agricultural machinery paths.",
+"Displays distinct color transitions between growing seasons, shifting from vibrant greens to earthy tones as crops mature or are harvested.",
+"Often segmented by narrow dirt roads or irrigation channels, visible as thin lines that break the uniformity of the crop coverage.",
+"Includes occasional clusters of farm equipment or small storage structures, appearing as tiny geometric shapes amidst the fields.",
+"Surrounded by natural or man-made boundaries such as hedges, roads, or waterways, creating clear demarcations from adjacent land uses."
+],
+
+"dam": [
+"Features a large, linear structure that typically spans across a river or valley, visible as a thick, continuous line.",
+"Characterized by a significant water body on one side, often appearing as a vast, smooth area compared to the surrounding landscape.",
+"Shows a distinct waterline and variations in water color and texture, indicating changes in depth and sediment.",
+"Includes spillways or outlets, which appear as narrower channels or breaks in the dam structure, often with water flow visible.",
+"Surrounded by access roads that lead up to the dam, visible as well-defined pathways cutting through the natural terrain.",
+"May display associated facilities like power stations or control buildings, visible as smaller structures in close proximity to the dam itself."
+],
+
+"debris_or_rubble": [
+"Characterized by irregular, scattered patches of material that appear as chaotic, non-uniform textures from above.",
+"Features a mix of colors, typically grays and browns, indicating broken concrete, wood, and other construction materials.",
+"Lacks the orderly patterns typical of functional structures, presenting instead a disorganized appearance.",
+"Often surrounded by partially collapsed buildings or infrastructure, visible as incomplete or distorted shapes.",
+"May include visible tracks or paths made by vehicles and machinery used in cleanup or salvage operations.",
+"Can be interspersed with patches of exposed earth, where the ground cover has been disturbed or removed."
+],
+
+"educational_institution": [
+"Characterized by a collection of buildings with large, flat or sloped roofs, often arranged in a compact or campus-like layout.",
+"Visible sports facilities such as rectangular fields or circular tracks, distinguishable by their standardized shapes and clear markings.",
+"Includes structured parking lots and access roads, forming a grid-like pattern around or within the campus.",
+"Features landscaped areas with trees and grass, providing contrast to the built environment, visible as green patches.",
+"May have multiple pathways connecting different buildings, visible as narrow lines crisscrossing the campus.",
+"Roof colors and materials can vary, but they often appear uniform within a single institution, aiding in identifying facility boundaries."
+],
+
+"electric_substation": [
+"Characterized by an assortment of high-voltage equipment including transformers and switchgear, visible as metallic structures with a complex layout.",
+"Features a perimeter typically enclosed by fencing, distinguishable in satellite images as thin, linear boundaries around the facility.",
+"Includes large, open areas often devoid of vegetation, highlighting the contrast between the metallic equipment and the bare ground.",
+"Marked by the presence of numerous straight, thick power lines emanating from the facility, forming a radial pattern.",
+"Visible as a compact, highly organized cluster of technical components and structures that vary in shape and size.",
+"Often located adjacent to or near power lines and roads, providing context clues about its function and importance."
+],
+
+"factory_or_powerplant": [
+"Typically features large industrial buildings with expansive, flat roofs, often organized in a clustered layout.",
+"Characterized by tall smokestacks, visible as narrow vertical structures that stand out against the horizontal expanse of the buildings.",
+"Includes large outdoor storage areas or holding tanks, noticeable as circular or rectangular shapes within the facility boundaries.",
+"Surrounded by networks of roads and rail lines, indicating heavy logistical operations associated with the site.",
+"May display varied roof colors and materials, but generally maintains a utilitarian appearance with minimal decorative elements.",
+"Often located in proximity to natural resources or transportation hubs, visible as additional industrial or infrastructural elements nearby."
+],
+
+"fire_station": [
+"Typically characterized by one or more rectangular buildings with large garage doors, visible as wide openings on the building fronts.",
+"Features a distinct, usually red or bright-colored roof, making it stand out from surrounding structures.",
+"Includes a paved area in front of the garages for quick vehicle access and maneuvering, often noticeable as a clear, unobstructed space.",
+"May display a tower-like structure, used for training or drying hoses, visible as a slender vertical element.",
+"Surrounded by well-maintained roads and possibly a designated parking area for the personnel.",
+"Often located near main roads or community centers, evident from its central or strategically chosen position in urban areas."
+],
+
+"flooded_road": [
+"Appears as sections of road submerged under water, presenting a smoother, glossier texture compared to dry areas.",
+"Characterized by the absence of visible road markings, which are obscured by the overlaying water.",
+"Surrounded by saturated land or muddy conditions, highlighting the contrast between typical dry surfaces and the affected areas.",
+"Water edges on the road surface are irregular and lack the straight, defined lines typical of roads.",
+"Displays scattered and isolated shapes that may be debris or other materials dislodged by the water.",
+"Located typically in flat or low-lying terrain, which contributes to the accumulation of standing water."
+],
+
+"fountain": [
+"Appears as a distinct circular or irregularly shaped feature, often lighter in color compared to surrounding pavements or green spaces.",
+"Characterized by a central structure from which water radiates or sprays, visible as a textural contrast on the surface.",
+"Surrounded by a basin or pool, which may reflect sunlight, creating a shimmering or gleaming effect in satellite images.",
+"Often located in the center of plazas, parks, or at the intersection of pathways, serving as a focal point.",
+"Can be accompanied by patterned walkways or ornamental landscaping, enhancing its visibility and decorative purpose.",
+"In larger examples, multiple jets or streams of water can be seen, creating radial or symmetrical patterns from above."
+],
+
+"gas_station": [
+"Features a small, rectangular building with a larger, covered forecourt area, typically sheltered by a flat or slightly sloped roof supported by pillars.",
+"The forecourt displays a geometric pattern of multiple lanes, often marked with clear, contrasting lines.",
+"Includes distinctive, brightly colored branding and signage on the canopy and building, visible as vivid patches or logos.",
+"Pavements around the station show well-defined areas that may have oil stains or darker patches.",
+"Adjacent to the main structure, there are designated spaces that appear as neatly organized rectangles.",
+"Located at crossroads or along main roads, evident by the surrounding network of thoroughfares converging at the station."
+],
+
+"golf_course": [
+"Characterized by extensive, well-manicured grass areas, varying from light to darker greens depending on the type of turf and maintenance.",
+"Features smooth, undulating terrain with occasional sand traps, visible as small, pale irregular shapes.",
+"Includes several small ponds or water bodies, which appear as dark blue or black spots amidst the greenery.",
+"Outlined by narrow pathways for carts, visible as thin lines that weave through the course.",
+"Often bordered by rows of trees or shrubs, forming natural barriers and adding texture to the landscape.",
+"Clubhouses or maintenance buildings are typically visible as small, neatly organized structures within the course."
+],
+
+"ground_transportation_station": [
+"Features a large, often rectangular building with multiple entry and exit points, visible as distinct doorways or openings.",
+"Surrounded by a network of roads and bus lanes, seen as clear linear patterns converging at the station.",
+"Typically includes a spacious parking area, distinguishable by orderly rows of parked vehicles.",
+"Marked by a canopy or sheltered waiting areas, visible as elongated structures adjacent to the main building.",
+"Often equipped with a series of platforms or loading zones, identified as raised or marked sections adjacent to the station.",
+"The layout frequently shows a loop or circular drive for buses and taxis, evident from a distinct pavement loop around the facility."
+],
+
+
+"helipad": [
+"Typically a flat, circular or square surface, uniformly colored to stand out from its environment.",
+"Marked with a prominent 'H' or another navigational symbol in the center, distinct for aerial recognition.",
+"The edges are precisely defined, creating a clear demarcation of the landing area.",
+"Constructed from materials like concrete, which appear smooth and uniform in texture in satellite imagery.",
+"Often devoid of any surface embellishments, maintaining a minimalist and functional appearance.",
+"Designed to be visually simplistic, focusing on high contrast with surrounding colors for quick identification from the air."
+],
+
+"hospital": [
+"Typically a large, multi-story building with a flat or slightly sloped roof, often segmented into various blocks or wings.",
+"Surfaces are commonly characterized by large windows, visible as arrays of reflective glass from aerial views.",
+"Usually surrounded by expansive parking areas, marked with numerous linear parking lines and accessibility lanes.",
+"Often features multiple access roads leading to different sections or emergency entrances, visible as clear pathways.",
+"Landscaping around the building may include green spaces and pathways, providing visual breaks in the concrete and asphalt.",
+"Frequently adjacent to other medical buildings or specialized clinics, forming a complex visible as a cluster of related structures."
+],
+
+"impoverished_settlement": [
+"Features densely packed, small structures with varied roof materials, creating a mosaic of colors and textures in satellite images.",
+"Displays irregular building layouts, with structures closely nestled, resulting in a complex network of narrow pathways.",
+"Roofs often appear in multiple colors and materials, reflecting a mix of metal sheets, fabrics, and other makeshift coverings.",
+"Visible pathways between the buildings are typically compact and meandering, reflecting the organic development of the settlement.",
+"Structures vary in size and shape, showing a lack of standardization typically seen in more formally planned areas.",
+"The area often shows signs of high density without large open spaces, emphasizing the compact nature of the settlement."
+],
+
+"interchange": [
+"Typically features a complex network of overpasses and underpasses, visible as layers of crossing roads at different heights.",
+"Roads within the interchange often appear as tightly curved lines or loops, facilitating the flow of traffic between multiple directions.",
+"Marked with various lane markings and road signs, which show up as thin white or yellow lines and small geometric shapes.",
+"Adjacent areas may display a clear absence of buildings, creating open spaces around the road structures to accommodate vehicle movement.",
+"The interchange surfaces are usually made of concrete or asphalt, presenting a uniform texture that contrasts with surrounding landscapes.",
+"Often located at major highway junctions, visibly connecting multiple wide roads that extend outwards into the surrounding region."
+],
+
+"lake_or_pond": [
+"Appears as a distinct, smooth surface with varying shades of blue or green, contrasting with surrounding land.",
+"Often irregular in shape, following natural contours of the landscape, which makes each lake or pond unique in form.",
+"Surrounded by vegetation that might show as denser green areas in satellite images, indicating lush plant life near water.",
+"In colder regions or seasons, might appear partially or fully white due to ice cover, altering its typical coloration.",
+"Shorelines can be jagged or smooth, and are sometimes lined with sand or rocks, visible as lighter or textured edges.",
+"May show inflows and outflows such as streams or rivers, visible as thin lines leading to or from the body of water."
+],
+
+"lighthouse": [
+"Visible as a singular, vertical structure, often cylindrical or tapered, easily distinguishable from surrounding topography.",
+"The top of the lighthouse typically displays a bright, reflective feature, corresponding to the light chamber.",
+"Constructed using materials that contrast sharply with the natural environment, aiding its visibility from afar.",
+"Frequently located on points of land jutting into water bodies, making them prominent in coastal satellite imagery.",
+"The surrounding area is generally clear of other tall structures, highlighting the lighthouse’s isolated and strategic placement.",
+"Shadows cast by the lighthouse can be elongated, depending on the time of day, indicating its significant height relative to its environment."
+],
+
+"military_facility": [
+"Characterized by organized, rectangular or square buildings arranged in precise, orderly patterns.",
+"Often surrounded by high-security fences and barriers that are clearly visible, delineating the facility's perimeter.",
+"Includes large, open spaces used for assembly or training, visible as expansive, unobstructed areas.",
+"Features well-defined roads and paths designed for logistical efficiency, noticeable for their straightness and width.",
+"Typically displays uniform color schemes and architectural styles across buildings, enhancing visual coherence.",
+"Security checkpoints or gatehouses are common, visible at facility entrances and marked by adjacent road widenings."
+],
+
+"multi-unit_residential": [
+"Features clusters of closely spaced buildings with uniform architectural styles and heights, typically rectangular in shape.",
+"Visible as dense arrangements of structures with similar roof designs and color schemes, enhancing uniformity.",
+"Often shows regular patterns of windows and balconies, which appear as repeated markings on the facades.",
+"The buildings are aligned in rows or grids, creating a structured urban layout easily identifiable from above.",
+"Commonly displays flat or slightly sloped roofs, which contribute to the homogeneity of the aerial view.",
+"Roofs may include shared amenities or communal spaces, visible as distinct, less densely built-up areas on top of buildings."
+],
+
+"nuclear_powerplant": [
+"Typically marked by large, dome-shaped containment structures, which are prominent and easily identifiable from above.",
+"Surrounded by multiple auxiliary buildings, often rectangular, that form a highly organized industrial complex.",
+"Features large cooling towers, visible as hyperboloid or cylindrical structures, often emitting steam.",
+"Situated in expansive, secured areas that are clear of dense construction or natural landscapes to ensure isolation.",
+"Includes visible infrastructure like power lines and substations, which connect the facility to the power grid.",
+"Often positioned near bodies of water, which can be seen as adjacent rivers or lakes used for cooling purposes."
+],
+
+"office_building": [
+"Characterized by high-rise structures with extensive glass facades that create reflective surfaces visible from above.",
+"Commonly topped with flat roofs, frequently equipped with air conditioning units or other mechanical equipment.",
+"Typically rectangular or square in footprint, presenting a uniform and orderly appearance in urban landscapes.",
+"The buildings often have a compact and efficient layout, maximizing the use of space within commercial zones.",
+"Visible patterns of windows and ledges on the exterior walls contribute to a grid-like texture on facades.",
+"Situated in areas with other similar structures, forming a coherent part of business districts easily identified from satellite images."
+],
+
+"oil_or_gas_facility": [
+"Characterized by extensive networks of pipes and tanks, which appear as complex metallic webs and large cylindrical shapes.",
+"Features multiple storage tanks, typically circular, visible as uniform, large structures grouped together.",
+"Includes flaring towers, identifiable as slender, vertical structures that may show heat signatures in some imagery.",
+"Often equipped with large processing buildings, rectangular and industrial in appearance, central to the facility layout.",
+"Surrounded by dirt or gravel clearings that distinguish these facilities from the surrounding vegetation or urban areas.",
+"The layout usually reveals a functional and spaced arrangement to facilitate easy access and operational safety."
+],
+
+"park": [
+"Typically characterized by expansive green areas, often interspersed with paths that appear as lighter or differently-colored lines weaving through the vegetation.",
+"Features variously shaped patches of trees and shrubs, creating a mosaic of different shades of green from above.",
+"Commonly includes open grassy areas which are visible as large, uniform green spaces.",
+"May contain water features such as ponds or lakes, which are noticeable as irregular blue or dark patches.",
+"Often equipped with recreational facilities like playgrounds or sports fields, visible as small, geometric shapes within the green space.",
+"The layout generally shows a designed arrangement of natural and built elements, providing a visual contrast to surrounding urban or residential areas."
+],
+
+"parking_lot_or_garage": [
+"Typically visible as large, open areas with a grid-like pattern of lines that delineate individual parking spaces.",
+"Surfaces are often uniform in color, ranging from shades of gray to black, depending on the material used.",
+"Multi-story garages appear as layered structures with distinct horizontal levels, each with rows of openings or barriers.",
+"Entry and exit points are marked by breaks in the surrounding curbs or barriers, leading to access roads.",
+"The layout usually includes clearly visible pedestrian pathways, often lighter in color, cutting across the parking rows.",
+"In covered facilities, the roof might display ventilation units or structural elements like beams and columns visible from above."
+],
+
+"place_of_worship": [
+"Typically features distinctive architectural elements such as steeples, domes, or minarets that stand out in satellite imagery.",
+"Often constructed with unique roof shapes and materials, reflecting cultural and religious significance, which may appear brightly colored or patterned from above.",
+"The main building is usually central and larger than surrounding structures, often surrounded by open courtyards or gardens.",
+"Frequently located within a clear, often symmetrical plot that sets it apart from adjacent residential or commercial areas.",
+"Entryways are sometimes marked by gates or arches, visible as distinct entrances leading to the primary structure.",
+"Parking or gathering areas are generally visible nearby, often organized in orderly rows or as an open space adjacent to the facility."
+],
+
+"police_station": [
+"Typically features a robust, secured structure with a flat or slightly sloped roof, often distinguishable by its solid and utilitarian design.",
+"The building layout usually includes a main block with one or more smaller attached sections or wings, reflecting internal functional divisions.",
+"Surfaces are generally nondescript, with muted colors like gray or blue, and the roofs may host communication antennas or satellite dishes.",
+"Parking areas are often prominently visible, with designated spaces for marked and unmarked police vehicles, arranged in orderly rows.",
+"Entrances and exits are clearly defined, often with barriers or controlled access points that suggest a high level of security.",
+"The facility might be located near main roads or intersections, facilitating quick access to and from the station."
+],
+
+"port": [
+"Distinguished by long, straight quays that extend into the water, visible as solid linear structures against the aquatic backdrop.",
+"Characterized by large, rectangular storage areas densely packed with colorful shipping containers arranged in grid-like formations.",
+"Features various cranes and lifting devices, which are identifiable as tall, slender structures that often cast distinct shadows.",
+"Visible ships and boats of various sizes docked at the piers, appearing as elongated shapes aligned parallel or perpendicular to the quays.",
+"The presence of wide, clear access roads and rail tracks often leading directly to and from the cargo handling areas.",
+"Breakwaters and other maritime control structures are apparent, showing up as protective barriers designed to stabilize the water's edge."
+],
+
+"prison": [
+"Enclosed by continuous high walls or fencing, clearly demarcating the perimeter in a distinct, unbroken line.",
+"Features multiple robust buildings with uniform, flat roofs, arranged in a grid or block formation.",
+"Includes open spaces such as yards, visible as large, unroofed rectangular or square areas within the complex.",
+"Guard towers are periodically positioned, appearing as small, elevated structures at strategic locations.",
+"Centralized buildings, possibly for administration or high security, often larger and centrally located within the layout.",
+"The complex typically shows a sparse, functional design with minimal external decorations or varied coloration."
+],
+
+"race_track": [
+"Characterized by a large, elongated loop or oval layout, clearly defined with a smooth, uniform surface.",
+"Surface materials vary, typically asphalt or dirt, each with distinct textures that stand out from the surrounding landscape.",
+"Marked with clearly visible starting and finishing lines, often distinguished by a different color or texture from the rest of the track.",
+"Features multiple, evenly spaced lanes delineated by consistent lane markings that extend around the circuit.",
+"Designed with various curves and straight sections, creating a rhythmic alternation visible from aerial views.",
+"The inner area of the track, or infield, is usually less structured, appearing as an open, flat space."
+],
+
+"railway_bridge": [
+"Characterized by a long, linear form that stretches across physical barriers such as rivers or valleys.",
+"Visibly constructed from durable materials, with significant structural components like beams or trusses.",
+"Elevated above the surrounding terrain, often creating a distinct shadow pattern that outlines its structure in aerial images.",
+"Typically integrates smoothly with the landscape, often connecting two raised landforms or embankments.",
+"Designed to support heavy loads, evidenced by the robustness and thickness of the bridge deck and supports.",
+"May feature distinctive engineering designs such as arches or cable-stays, which are clearly visible from above."
+],
+
+"recreational_facility": [
+"Characterized by open spaces and structured areas, often visible as varied patches of texture and color from aerial views.",
+"Commonly includes large fields or courts, which appear as uniform green or beige surfaces, indicating grass or synthetic playing surfaces.",
+"Playgrounds or sport courts are often marked by geometric patterns or bright, distinct colors that contrast with surrounding greenspaces.",
+"Diverse paths and walkways are evident, showing as clear, linear or curving lines that interconnect various sections of the facility.",
+"Small, scattered buildings are typical, visible as compact structures that support the main recreational functions.",
+"The overall layout is designed to facilitate various activities, resulting in a mixed and segmented appearance from above."
+],
+
+"road_bridge": [
+"Visibly characterized by a straight or slightly curved linear structure that spans across natural or man-made obstacles.",
+"Constructed from materials that appear robust in satellite images, often showing as grey or dark tones against the landscape.",
+"The bridge deck is typically marked with parallel lines, indicating the lanes for vehicular traffic visible from above.",
+"Elevation above the surrounding area is noticeable, with shadows often highlighting the height and structure of the bridge.",
+"Support features like piers or columns are regularly spaced, visible as distinct vertical elements that support the span.",
+"End points of the bridge integrate with road networks, appearing as seamless transitions from elevated to ground-level roads."
+],
+
+"runway": [
+"Appears as a long, consistently wide strip, typically darker than its surroundings due to its asphalt or concrete material.",
+"Marked with distinct, bright white or yellow lines that delineate its borders and centerline, clearly visible from above.",
+"Features series of perpendicular stripes near each end, known as threshold markings, to signify the beginning of the usable runway surface.",
+"Characterized by a smooth and uniform texture, contrasting with the often more varied textures of surrounding land areas.",
+"Uniform in width along its entire length, distinguishing it from roadways or other paths that may vary in width.",
+"Ends of the runway may have large numbers painted on, corresponding to the runway's magnetic azimuth rounded to the nearest ten degrees."
+],
+
+"shipyard": [
+"Characterized by large, open waterfront areas with extensive hardstand surfaces, typically concrete, that appear grey or beige in satellite images.",
+"Features multiple dry docks or slipways, visible as long, narrow recesses that can contain water or be empty, depending on operational status.",
+"Often equipped with crane structures, which are visible as tall, thin lines with adjacent shadows casting over the yard.",
+"Includes large assembly and construction areas, marked by partially completed vessels that vary in shape and size, distinguishable from above.",
+"Storage areas are evident, filled with large material stockpiles and prefabricated sections, appearing as organized clusters of various shapes.",
+"The layout is generally linear along the coastline or riverbank, optimizing space for the progression of ship assembly and repair."
+],
+
+"shopping_mall": [
+"Presents as a large, cohesive building with a flat or subtly contoured roof, distinguishable by its size and geometric shape, usually rectangular.",
+"The structure is often segmented by different roof sections and materials, making the complex appear as a patchwork from above.",
+"Surrounded by expansive parking areas, these are clearly defined by painted lines, creating a grid-like pattern around the building.",
+"Entry and exit points are indicated by wider openings in the parking lot, distinguished by converging traffic lanes.",
+"The mall's uniform color and texture of roofing contrast with the varied textures of adjacent roads and smaller buildings.",
+"Visible from the air as a dominant feature in commercial zones, typically larger and more structured than surrounding buildings."
+],
+
+"single-unit_residential": [
+"Appears as a standalone structure, typically with a simple, compact, and distinct geometric shape, such as rectangular or L-shaped.",
+"The roofs often show different textures or colors, usually pitched, and may feature visible chimneys or roof vents.",
+"Each unit is separated by clear spaces or minimal landscaping, providing a visual buffer between neighboring properties.",
+"Includes a visible entrance and driveway, often connecting directly to a nearby road, seen as a linear or curved path.",
+"The property is generally smaller and clearly delineated from others, often enclosed by fences or vegetation lines visible from above.",
+"The surrounding area may show uniformity in building orientation and spacing, indicating planned residential layouts."
+],
+
+"smokestack": [
+"Visible as a narrow, vertical structure protruding above the industrial landscape, often cylindrical and distinct in form.",
+"Typically shows a smooth, uniform surface that contrasts with the textured appearance of nearby industrial buildings.",
+"Casts a distinct, linear shadow that helps indicate its significant height compared to surrounding structures.",
+"The top is generally featureless and flat, occasionally rounded, standing out in the simplicity of its aerial silhouette.",
+"Frequently associated with visible emissions, smokestacks can produce plumes of smoke or steam that extend visibly in the atmosphere, influenced by wind conditions.",
+"Commonly situated amidst clusters of other industrial facilities, but its towering height makes it a prominent landmark in satellite images."
+],
+
+"solar_farm": [
+"Characterized by vast arrays of panels with a highly reflective, glassy surface that stands out in agricultural or open landscapes.",
+"Panels are typically arranged in uniform, parallel rows that create a grid-like pattern from an aerial perspective.",
+"The overall layout is extensive and flat, covering large tracts of land with minimal vertical structures visible.",
+"Surfaces exhibit a distinctive bluish or dark hue, which contrasts sharply with the natural greenery or soil around them.",
+"From above, the boundaries are often clearly delineated, with sharp, straight edges that define the perimeter of the installation.",
+"Shadow patterns can be observed depending on the sun's position, with minimal shadow cast by the low-profile panels."
+],
+
+
+"space_facility": [
+"Features large, circular or parabolic antenna dishes that are highly reflective and easily distinguishable from above.",
+"Includes expansive, flat concrete or asphalt surfaces that serve as launch pads, appearing as stark, geometrically defined areas.",
+"Often surrounded by large, isolated buildings with high-security fencing visible from aerial views.",
+"Situated in remote areas, typically clear of dense vegetation and urban development to ensure a wide, unobstructed perimeter.",
+"May show signs of scorched earth or discoloration around launch areas due to the heat and activity associated with rocket launches.",
+"The overall layout is spread out with significant distances between major structures to accommodate safety and technical requirements."
+],
+
+"stadium": [
+"Prominently features a large, oval or circular structure, clearly distinguishable in aerial views due to its distinct shape.",
+"Includes tiered seating arranged in concentric circles or curved lines, providing a patterned appearance from above.",
+"Often capped with a roof that may display complex structural patterns or appear as a large, uniform expanse.",
+"Central to the structure is a green football field, which provides a stark visual contrast to the surrounding seating areas.",
+"The stadium's scale typically dwarfs nearby commercial or residential buildings, making it a prominent urban landmark.",
+"Architectural details like retractable sections can be identified by inconsistencies in shading or roof lines."
+],
+
+"storage_tank": [
+"Typically appears as large cylindrical structures with flat or domed tops, visible from above as circular or oval shapes.",
+"Surfaces are often metallic or concrete, reflecting sunlight and appearing bright or contrasting in satellite images.",
+"Arranged in clusters or rows, these tanks create repetitive patterns that are easily recognizable in industrial areas.",
+"The size varies, but their significant diameter and height make them prominent features in the landscape.",
+"Shadows cast by these tanks are circular or elongated, depending on the time of day, providing a clue to their three-dimensional form.",
+"Occasionally equipped with external piping or infrastructure, visible as thin, linear connections between tanks or to other facilities."
+],
+
+"surface_mine": [
+"Characterized by large, open pits or terraced layers, visible as deep excavations with stepped or sloped sides.",
+"The terrain often appears significantly disrupted, with exposed soil and rock layers creating a palette of earthy colors.",
+"Heavy machinery, such as large trucks and excavators, can be seen as small, detailed elements within the extensive mining area.",
+"Ponds or water-filled areas are sometimes visible, reflecting light differently than surrounding materials and indicating processing sites.",
+"Dirt roads or tracks frequently crisscross the site, marked by lighter or disturbed earth that stands out from the natural surroundings.",
+"Stockpiles of materials like coal or minerals form mounded or flattened piles, distinguishable by their uniform textures and colors."
+],
+
+"swimming_pool": [
+"Appears as a distinct, vivid blue or turquoise patch, contrasting sharply with the surrounding landscape or urban environment.",
+"The pool's surface is uniformly colored and smooth, reflecting sunlight, which makes it a prominent feature in satellite images.",
+"Typically features a rectangular or organically shaped perimeter, with clearly defined edges visible from aerial views.",
+"Often located adjacent to residential, hotel, or recreational buildings, integrating it into the layout of the property.",
+"The shape and size of the pool can vary, but it remains identifiable by its clear, sharp boundaries and uniform color.",
+"In larger communal or public settings, the pool might be centrally positioned as part of a broader recreational area."
+],
+
+
+"toll_booth": [
+"Appears as small, uniform structures aligned in a row across roadways, often at strategic points like bridges or highway exits.",
+"Each booth is typically equipped with a canopy, visible as a rectangular or elongated shade structure in satellite imagery.",
+"Roads leading to and from the booths show widening or branching patterns, indicating multiple lanes converging into toll collection points.",
+"Adjacent to the booths, you can usually see lanes demarcated by road markings, organizing the flow of traffic into orderly queues.",
+"The area often includes barriers or gates, visible as thin lines perpendicular to traffic flow, used to control vehicle passage.",
+"In many cases, adjacent parking or waiting areas are noticeable, serving as holding zones for trucks and maintenance vehicles."
+],
+
+"tower": [
+"Appears as a slender, vertical structure rising prominently above the surrounding landscape or cityscape in satellite images.",
+"Often casts a long, narrow shadow that can help indicate its height and shape during different times of the day.",
+"Typically cylindrical or polygonal in shape, with a uniform or tapering width visible from aerial views.",
+"The top of the tower may feature antennas, spires, or other protrusions, making it distinct from other high-rise buildings.",
+"Surfaces are sometimes segmented or patterned, reflecting different materials or structural elements.",
+"Isolated from other tall structures, towers stand out as solitary points in less dense environments or as notable landmarks in urban areas."
+],
+
+"tunnel_opening": [
+"Visible as a dark, circular or rectangular shape that interrupts the continuity of a road or railway line in satellite imagery.",
+"Often flanked by protective barriers or retaining walls that appear as linear structures on either side of the opening.",
+"Surrounded by disturbed earth or landscaping changes, indicating excavation sites during the tunnel's construction.",
+"The entrance can sometimes be identified by shadows cast into the tunnel, making the opening appear darker than its surroundings.",
+"Located typically at the base of mountains, hillsides, or beneath urban infrastructure to facilitate transportation routes.",
+"May show signs of support structures like beams or columns near the opening, visible as small geometric patterns."
+],
+
+
+"waste_disposal": [
+"Looks like large areas with many different colors, showing mixed waste materials.",
+"The ground is rough and patchy, with visible heaps of trash.",
+"Each heap has its own look and color, from things like food waste, building debris, or metal scraps.",
+"There's little to no grass or plants, mostly just dirt or packed-down earth.",
+"Shiny objects like metal can make bright spots in the pictures from satellites.",
+"You can often see machines like bulldozers or compactors, which are small and easy to spot."
+],
+
+"water_treatment_facility": [
+"Typically shows large, circular tanks that are often arranged in clusters, visible as distinct geometric shapes.",
+"Features rectangular pools or basins that are usually lined up in series, noticeable from above for their clear, straight edges.",
+"The site often includes buildings with flat roofs, smaller in size compared to the tanks and pools.",
+"Visible piping or walkways may connect between the tanks and pools, appearing as thin, linear marks.",
+"The overall layout is organized and symmetrical, with facilities structured in a grid or parallel arrangement.",
+"Surfaces of water bodies within the facility can appear darker or have a different texture compared to natural water bodies."
+],
+
+"wind_farm": [
+"Characterized by multiple tall, thin structures with three-bladed turbines atop, uniformly spaced in rows or clusters.",
+"The turbines are typically white or light-colored, making them stand out against natural landscapes in satellite images.",
+"Visible access roads connect the turbines, appearing as narrow, linear paths that weave through the farm.",
+"Each turbine casts a distinct shadow that aligns with the sun's position, creating consistent linear patterns on the ground.",
+"The layout of the turbines often follows the topography, adapting to hills or ridges to maximize wind exposure.",
+"In coastal or offshore settings, turbines appear as isolated points on the water, connected by submerged lines seen as faint trails."
+],
+
+"zoo": [
+"Displays a variety of enclosure shapes and connecting pathways, which may appear more formal and structured in urban settings and more blended with the natural landscape in rural or less developed areas.",
+"In regions such as Africa, zoos often integrate subtly with the surrounding environment, featuring enclosures that are less distinctly defined and more natural in appearance.",
+"Visible landscaping within enclosures includes elements like simulated water bodies and diverse vegetation patches to recreate natural habitats.",
+"The pathways, clear from above, typically meander through the zoo, connecting various animal habitats with smooth, winding lines.",
+"Large open spaces, noticeable from aerial views, are used for animal grazing or as gathering spaces for visitors, often delineated by fences or natural borders.",
+"Parking areas, when present, are usually expansive and located near the main entrances, clearly segmented from the rest of the zoo layout."
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
