@@ -5,9 +5,9 @@
 
 ### Plan for release
 
-- [x] Release the concept decriptions we used [in /concept_description] 
-- [ ] Release the model checkpoints and inference codes (update: iWildCam and FMoW-related checkpoints and inference codes have been released, will update for ImageNet soon).
-- [ ] Release the training codes (expect: before 31 Dec.).
+- [x] Release the concept decriptions we used [in /concept_description].
+- [x] Release the model checkpoints and inference codes.
+- [ ] Release the training scripts.
 
 ### Requirement
 
@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 ### Inference
 
-|          | Dataset <br />[please download and unzip the dataset]        | Checkpoint<br />[please download the checkpoints and put them under the *ckpts* folder ] | Inference                 |
+|          | Dataset <br />[please download and unzip the dataset under the *data* folder] | Checkpoint<br />[please download the checkpoints and put them under the *ckpts* folder ] | Inference                 |
 | :------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| iWildCam | [**Link**](https://worksheets.codalab.org/rest/bundles/0x6313da2b204647e79a14b468131fcd64/contents/blob/)<br />The data-location in src/eval_iwildcam.sh may need to change accordingly. | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/ElA73hZ8UAlMgzmjIy99ycgBu6CZCNG-mSzdcqJHBrklIw?e=f8wXDf)<br /><br />**CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID tesing F1: 0.5353, OOD tesing F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID tesing F1: 0.6222, OOD tesing F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID tesing F1: 0.6273 , OOD tesing F1: 0.5139] | bash src/eval_iwildcam.sh |
-| FMoW     | [**Link**](https://worksheets.codalab.org/rest/bundles/0xaec91eb7c9d548ebb15e1b5e60f966ab/contents/blob/)<br />The data-location in src/eval_fmow.sh may need to change accordingly. | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/EiB1b_999MdDkg7eDyvozeUB24wpPAnxjt7_2AUoNSn-iA?e=eEGRYB)<br /><br />**CLIP ViT-B/16**<br />(ckpts/fmow_vit_b16.pt) <br />[ID tesing acc: 0.6857, OOD tesing worst-region acc: 0.4566]<br /><br />**CLIP ViT-L/14**<br />(ckpts/fmow_vit_l14.pt) <br />[ID tesing acc: 0.7093, OOD tesing worst-region acc: 0.5137]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/fmow_vit_l14_336.pt) <br />[ID tesing acc: 0.7389 , OOD tesing worst-region acc: 0.5253] | bash src/eval_fmow.sh     |
-| ImageNet | To add                                                       | To add                                                       | To add                    |
+| iWildCam | See link in *data/readme.md*                                 | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/ElA73hZ8UAlMgzmjIy99ycgBu6CZCNG-mSzdcqJHBrklIw?e=f8wXDf)<br /><br />**CLIP ViT-B/16**<br />(ckpts/iwildcam_vit_b16.pt) <br />[ID tesing F1: 0.5353, OOD tesing F1: 0.4049]<br /><br />**CLIP ViT-L/14**<br />(ckpts/iwildcam_vit_l14.pt) <br />[ID tesing F1: 0.6222, OOD tesing F1: 0.4875]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/iwildcam_vit_l14_336.pt) <br />[ID tesing F1: 0.6273 , OOD tesing F1: 0.5139] | bash src/eval_iwildcam.sh |
+| FMoW     | See link in *data/readme.md*                                 | [**Link**](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wxieai_connect_ust_hk/EiB1b_999MdDkg7eDyvozeUB24wpPAnxjt7_2AUoNSn-iA?e=eEGRYB)<br /><br />**CLIP ViT-B/16**<br />(ckpts/fmow_vit_b16.pt) <br />[ID tesing acc: 0.6857, OOD tesing worst-region acc: 0.4566]<br /><br />**CLIP ViT-L/14**<br />(ckpts/fmow_vit_l14.pt) <br />[ID tesing acc: 0.7093, OOD tesing worst-region acc: 0.5137]<br /><br />**CLIP ViT-L/14@336px**<br />(ckpts/fmow_vit_l14_336.pt) <br />[ID tesing acc: 0.7389 , OOD tesing worst-region acc: 0.5253] | bash src/eval_fmow.sh     |
+| ImageNet | See links in *data/readme.md*                                | [**Link**](https://hkustconnect-my.sharepoint.com/:u:/g/personal/wxieai_connect_ust_hk/EeayiBbm8UVBrqVCiDsD6cIBkRq-sgkO7MCIHIQz_O3tCQ?e=AQR5QE)<br /><br />**CLIP ViT-B/16**<br />(ckpts/imagenet_vit_b16.pt) <br />[Acc - Val: 0.8205, V2: 0.7343, R: 0.7782, A: 0.5353, Sketch: 0.5248] | bash src/eval_imagenet.sh |
 
 ### Cite us
 
@@ -45,7 +45,7 @@ url={https://openreview.net/forum?id=p50Dyqk0GX}
 
 ### Acknowledgement
 
-Our code is modified based on [FLYP](https://github.com/locuslab/FLYP), [WILDS](https://github.com/p-lambda/wilds), [CLIP](https://github.com/openai/CLIP), thanks to all the contributors!
+Our code is modified based on [FLYP](https://github.com/locuslab/FLYP), [WILDS](https://github.com/p-lambda/wilds), [CLIP](https://github.com/openai/CLIP), [CoOp](https://github.com/KaiyangZhou/CoOp), thanks to all the contributors!
 
 -------
 
