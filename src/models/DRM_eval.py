@@ -9,7 +9,7 @@ import clip_m.clip as clip
 from clip_m.loss import ClipLoss
 from src.args import parse_arguments
 from src.datasets.common import get_dataloader, maybe_dictionarize
-from src.models.eval import evaluate
+from src.models.eval_helper import evaluate
 from src.models.modeling import ClassificationHead, CLIPEncoder, ImageClassifier
 from src.models.zeroshot import get_zeroshot_classifier
 import src.datasets as datasets
