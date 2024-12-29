@@ -7,7 +7,7 @@
 
 - [x] Release the concept decriptions we used [in /concept_description].
 - [x] Release the model checkpoints and inference codes.
-- [ ] Release the training scripts.
+- [ ] Release the training scripts (Update 29th, Dec: will be soon).
 
 ### Requirement
 
